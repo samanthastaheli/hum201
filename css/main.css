@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+    --gray: rgb(112, 119, 121);
+    --text-color: rgb(67, 73, 75);
+    --purple: #AA809F;
+    --orange: rgb(221, 165, 128);
+    --white: white;
+    --light-gray: lightgray; 
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: var(--text-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1020px auto;
+    grid-template-rows: auto;
+    padding: 10px;
+    background-color: var(--white);
+    color: var(--gray);
+}
+
+.navTitle {
+    font-size: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.navBar {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+}
+
+.navListItem {
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--purple);
+}
+
+a:visted {
+    color: var(--gray);
+}
+
+.headerImg {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+.headerTitle {
+    position: relative;
+    margin: 0;
+    padding: 200px;
+    color: var(--white);
+    font-size: 78px;
+    font-weight: 700;
+}
+
+.rectangle {
+    background-color: var(--purple);
+    width: 510px;
+    height: 22px;
+    opacity: 0.85;
+}
+
+.container {
+    padding: 261.5px 0px 0px 200px;
+    position: absolute;
+}
+
+.rectangle2 {
+    background-color: var(--purple);
+    width: 737px;
+    height: 22px;
+    opacity: 0.85;
+}
+
+.container2 {
+    padding: 351px 0px 0px 200px;
+    position: absolute;
+}
+
+/* content */
+.content {
+    margin: auto;
+    max-width: 900px;
+}
+
+.subPageHeader {
+    color: var(--white);
+    text-align: center;
+    font-size: 60px;
+    padding: 80px;
+    background-color: var(--purple);
+    margin: 0px;
+    opacity: 0.9;
+}
+
+/* link list */
+.linkList {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin: 60px 0px 100px 0px;
+}
+.linkBox {
+    display: flex;
+    width: 200px;
+    height: 120px;
+    margin: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
+    color: white;
+    opacity: 0.9;
+}
+
+.linkBox a {
+    color: var(--white);
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+.linkBox a:hover {
+    color: var(--purple);
+    text-decoration: none;
+}
+
+.linkBox:hover {
+    color: var(--purple);
+    background-color: var(--white);
+    border: 2px solid var(--purple);
+}
+
+/* assignments page */
+.assignmentPageHeaderDiv {
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.assignmentPageHeaderDiv h1 {
+    font-size: 60px;
+}
+
+.assignmentPageHeaderDiv h2 {
+    font-size: 20px;
+}
+
+#pc2 {
+    color: rgb(255, 217, 170);
+}
+
+#pc3 {
+    color: var(--white);
+}
+
+#pc4 {
+    color: rgb(25, 57, 70); 
+}
+
+#pc5 {
+    color: white;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 16px;
+    text-indent: 32px;
+}
+
+p:first-child {
+    padding-top: 100px;
+}
+
+#pc2FristP {
+    padding-top: 160px;
+}
+
+#pc4firstp {
+    padding-top: 150px;
+}
+
+p:last-child {
+    padding-bottom: 100px;
+}
+
+/* culture page */
+.cultureContent {
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 100px;
+}
+
+.cultureContent p:first-child {
+    padding-top: 30px;
+}
+
+.cultureContent p:last-child {
+    padding-bottom: 50px;
+}
+
+.cultureContent h2 {
+    padding-top: 40px;
+}
+
+.cultureContent h3 {
+    font-size: 18px;
+}
+
+.map {
+    float: right;
+    padding-left: 20px;
+}
+
+.artworkDivG {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.artworkDivG:first-child {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.artRight {
+    float: right;
+    padding-left: 20px;
+}
+
+.artLeft {
+    float: left;
+    padding-right: 30px;
+}
+
+footer {
+    background-color: var(--light-gray);
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+}
