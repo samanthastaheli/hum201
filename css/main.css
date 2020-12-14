@@ -192,6 +192,10 @@ a:visted {
     color: white;
 }
 
+#pc7 {
+    color: rgb(56, 63, 88);
+}
+
 p {
     line-height: 1.5rem;
     font-size: 16px;
@@ -208,6 +212,10 @@ p:first-child {
 
 #pc4firstp {
     padding-top: 150px;
+}
+
+#pc7FristP {
+    padding-top: 160px;
 }
 
 p:last-child {
